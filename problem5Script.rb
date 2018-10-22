@@ -1,6 +1,6 @@
 # Ethan Roberts
 # CS 417 Topics in OOP
-
+ 
 # This script will manipulates a list
 # Ruby Assignment
 
