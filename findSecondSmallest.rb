@@ -31,7 +31,7 @@ end
 
 
 
-
+ 
 def secondSmallest(list)
   smallest = list[0]
   secondSmallest = list[1]
