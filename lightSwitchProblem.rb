@@ -33,16 +33,21 @@ def findNumberOfLights(entry)
 	 if @remainder > 0
 	   return ((entry / @maxToggle) + 1)
 	 else
-      return (entry / @maxToggle)
+           return (entry / @maxToggle)
 	 end
    end
 end
+	
+	
+end 
 
 
-end
 
-
-
+#-------------------------
+#
+# Begin driver portion
+#
+#-------------------------
 
 
 mySwitch = Switch.new()
