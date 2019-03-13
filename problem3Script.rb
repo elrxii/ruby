@@ -1,8 +1,7 @@
 # Ethan Roberts
-# CS 417 Topics in OOP
-# This script will find the second smallest index position.
+# This script will find the second smallest index position using
+# looping only.  This is a Ruby exercise.
 
-# Ruby Assignment
 
 
 
@@ -77,6 +76,3 @@ myAry = [9,8,6,22,4,6,77,4]
 
 print "The position of the second smallest element in the array is: "
 print secondSmallest(myAry)
-
-
-
