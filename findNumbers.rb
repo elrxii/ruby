@@ -1,10 +1,8 @@
 # Ethan Roberts
-# CS 417 Topics in OOP
+# Ruby exercise
 
 # This script finds all positive ints
 # less than "n" that are not mcnugget numbers
-
-# Ruby Assignment
 
 # cite:  https://stackoverflow.com/questions/12112765/how-to-reference-global-variables-and-class-variables
 # used this link for syntax help with defining a global variable
