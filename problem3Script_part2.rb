@@ -1,11 +1,7 @@
 # Ethan Roberts
-# CS 417 Topics in OOP
 
-# This script deals with a single-elimination tournament
-
-
-# Ruby Assignment
-
+# This script simulates a tournament of single players
+# Written in Ruby
 
 
 class Tournament
@@ -18,8 +14,7 @@ end
 
 
 def getRounds(entry)
-  
-    counter = 0
+        counter = 0
 	dividend = 0
 	remainder = 0
 	@playersInTourney = entry
@@ -35,10 +30,9 @@ def getRounds(entry)
 	   dividend = dividend + remainder
 	   counter = counter + 1
        
-  	end
-	 
+	end
+	
      return counter  # number of matches played in tournament
-
 end
 
 
@@ -47,9 +41,8 @@ def getMatches
   return @playersInTourney - 1  # matches played formula:  number of players - 1
 end
 
- 
-
-end
+	
+end #close class
 
 
 
